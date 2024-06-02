@@ -7,7 +7,6 @@ class TestMagazine:
         magazine_1 = Magazine("Vogue", "Fashion")
         assert isinstance(magazine_1.category, str)
 
-        # comment out the next two lines if using Exceptions
         magazine_2 = Magazine("AD", "Architecture")
         magazine_2.category = 2
         assert magazine_2.category == "Architecture"
@@ -17,7 +16,6 @@ class TestMagazine:
         magazine_1 = Magazine("Vogue", "Fashion")
         assert magazine_1.category != ""
 
-        # comment out the next three lines if using Exceptions
         magazine_1.category = ""
         assert magazine_1.category == "Fashion"
 
